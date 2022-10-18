@@ -1,0 +1,117 @@
+diff --git a/tests/src/Functional/PathautoBulkUpdateTest.php b/tests/src/Functional/PathautoBulkUpdateTest.php
+index 059f38f..db97207 100644
+--- a/tests/src/Functional/PathautoBulkUpdateTest.php
++++ b/tests/src/Functional/PathautoBulkUpdateTest.php
+@@ -20,7 +20,7 @@ class PathautoBulkUpdateTest extends BrowserTestBase {
+  /**
+    * {@inheritdoc}
+    */
+-  protected $defaultTheme = 'stable';
++  protected $defaultTheme = 'stable9';
+ 
+   /**
+    * Modules to enable.
+diff --git a/tests/src/Functional/PathautoEnablingEntityTypesTest.php b/tests/src/Functional/PathautoEnablingEntityTypesTest.php
+index 5f736d2..5279f14 100644
+--- a/tests/src/Functional/PathautoEnablingEntityTypesTest.php
++++ b/tests/src/Functional/PathautoEnablingEntityTypesTest.php
+@@ -19,7 +19,7 @@ class PathautoEnablingEntityTypesTest extends BrowserTestBase {
+   /**
+    * {@inheritdoc}
+    */
+-  protected $defaultTheme = 'stable';
++  protected $defaultTheme = 'stable9';
+ 
+   /**
+    * Modules to enable.
+diff --git a/tests/src/Functional/PathautoMassDeleteTest.php b/tests/src/Functional/PathautoMassDeleteTest.php
+index bab12ef..1bec6c0 100644
+--- a/tests/src/Functional/PathautoMassDeleteTest.php
++++ b/tests/src/Functional/PathautoMassDeleteTest.php
+@@ -18,7 +18,7 @@ class PathautoMassDeleteTest extends BrowserTestBase {
+   /**
+    * {@inheritdoc}
+    */
+-  protected $defaultTheme = 'stable';
++  protected $defaultTheme = 'stable9';
+ 
+   /**
+    * Modules to enable.
+diff --git a/tests/src/Functional/PathautoNodeWebTest.php b/tests/src/Functional/PathautoNodeWebTest.php
+index e81adfb..9572880 100644
+--- a/tests/src/Functional/PathautoNodeWebTest.php
++++ b/tests/src/Functional/PathautoNodeWebTest.php
+@@ -21,7 +21,7 @@ class PathautoNodeWebTest extends BrowserTestBase {
+   /**
+    * {@inheritdoc}
+    */
+-  protected $defaultTheme = 'stable';
++  protected $defaultTheme = 'stable9';
+ 
+   /**
+    * Modules to enable.
+diff --git a/tests/src/Functional/PathautoSettingsFormWebTest.php b/tests/src/Functional/PathautoSettingsFormWebTest.php
+index eeb8b3f..13112d9 100644
+--- a/tests/src/Functional/PathautoSettingsFormWebTest.php
++++ b/tests/src/Functional/PathautoSettingsFormWebTest.php
+@@ -17,7 +17,7 @@ class PathautoSettingsFormWebTest extends BrowserTestBase {
+   /**
+    * {@inheritdoc}
+    */
+-  protected $defaultTheme = 'stable';
++  protected $defaultTheme = 'stable9';
+ 
+   /**
+    * Modules to enable.
+diff --git a/tests/src/Functional/PathautoTaxonomyWebTest.php b/tests/src/Functional/PathautoTaxonomyWebTest.php
+index b0d0ca4..82e77b4 100644
+--- a/tests/src/Functional/PathautoTaxonomyWebTest.php
++++ b/tests/src/Functional/PathautoTaxonomyWebTest.php
+@@ -16,7 +16,7 @@ class PathautoTaxonomyWebTest extends BrowserTestBase {
+   /**
+    * {@inheritdoc}
+    */
+-  protected $defaultTheme = 'stable';
++  protected $defaultTheme = 'stable9';
+ 
+   /**
+    * Modules to enable.
+diff --git a/tests/src/Functional/PathautoUserWebTest.php b/tests/src/Functional/PathautoUserWebTest.php
+index 2f53c59..a89436f 100644
+--- a/tests/src/Functional/PathautoUserWebTest.php
++++ b/tests/src/Functional/PathautoUserWebTest.php
+@@ -17,7 +17,7 @@ class PathautoUserWebTest extends BrowserTestBase {
+   /**
+    * {@inheritdoc}
+    */
+-  protected $defaultTheme = 'stable';
++  protected $defaultTheme = 'stable9';
+ 
+   /**
+    * Modules to enable.
+diff --git a/tests/src/FunctionalJavascript/PathautoLocaleTest.php b/tests/src/FunctionalJavascript/PathautoLocaleTest.php
+index 5677353..111d721 100644
+--- a/tests/src/FunctionalJavascript/PathautoLocaleTest.php
++++ b/tests/src/FunctionalJavascript/PathautoLocaleTest.php
+@@ -23,7 +23,7 @@ class PathautoLocaleTest extends WebDriverTestBase {
+   /**
+    * {@inheritdoc}
+    */
+-  protected $defaultTheme = 'stable';
++  protected $defaultTheme = 'stable9';
+ 
+   /**
+    * Modules to enable.
+diff --git a/tests/src/FunctionalJavascript/PathautoUiTest.php b/tests/src/FunctionalJavascript/PathautoUiTest.php
+index c6e8b11..eb6e592 100644
+--- a/tests/src/FunctionalJavascript/PathautoUiTest.php
++++ b/tests/src/FunctionalJavascript/PathautoUiTest.php
+@@ -21,7 +21,7 @@ class PathautoUiTest extends WebDriverTestBase {
+   /**
+    * {@inheritdoc}
+    */
+-  protected $defaultTheme = 'stable';
++  protected $defaultTheme = 'stable9';
+ 
+   /**
+    * Modules to enable.

@@ -113,6 +113,9 @@
             "drupal/core": "-p2"
         },
         "patches": {
+            "drupal/pathauto": {
+                "Patching Deprecated Stable theme to Stable9 in tests": "patches/patching-deprecated-stable-theme-to-stable9.patch"
+            }
         }
     },
     "scripts": {
