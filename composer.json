@@ -114,7 +114,7 @@
         },
         "patches": {
             "drupal/pathauto": {
-                "Patching Deprecated Stable theme to Stable9 in tests": "patches/patching-deprecated-stable-theme-to-stable9.patch"
+                "Issue #3316291: Drupal 10 Compatibility: Replace Stable theme with Stable 9 for automated tests": "https://git.drupalcode.org/project/pathauto/-/merge_requests/34.patch"
             }
         }
     },
