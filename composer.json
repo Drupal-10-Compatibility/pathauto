@@ -113,9 +113,6 @@
             "drupal/core": "-p2"
         },
         "patches": {
-            "drupal/pathauto": {
-                "Issue #3316291: Drupal 10 Compatibility: Replace Stable theme with Stable 9 for automated tests": "https://git.drupalcode.org/project/pathauto/-/merge_requests/34.patch"
-            }
         }
     },
     "scripts": {
