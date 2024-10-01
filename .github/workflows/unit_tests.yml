@@ -19,11 +19,11 @@ jobs:
       SIMPLETEST_BASE_URL: http://localhost:8888
       PROJECT_ROOT: .
       DRUPAL_ROOT: ./web
-      PHP_VERSION: '8.1'
+      PHP_VERSION: '8.2'
       MINK_DRIVER_ARGS: '["chrome", {"chromeOptions":{"args":["--disable-gpu", "--headless”]}}, "http://localhost:9515/wd/hub"]'
       MINK_DRIVER_ARGS_WEBDRIVER: '["chrome", { "chromeOptions": { "w3c": false } }, "http://localhost:9515/wd/hub"]'
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: nanasess/setup-chromedriver@master
       - name: Launch Chrome Driver
         run: |
